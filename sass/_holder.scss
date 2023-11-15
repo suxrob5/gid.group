@@ -1,0 +1,36 @@
+.holder {
+  margin-top: 30px;
+  .block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    .card{
+        margin: 0 5px;
+    }
+  }
+  .card-tittle {
+    &__h3 {
+      color: #000;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &__p {
+      color: var(--Gray-2, #4f4f4f);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+    &__p1 {
+      color: var(--Gray-2, #4f4f4f);
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      margin: 5px 0;
+    }
+  }
+}

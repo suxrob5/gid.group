@@ -1,0 +1,35 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  .wrap {
+    width: 90%;
+    height: 327px;
+    background: var(--Gray-6, #f2f2f2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &__h1 {
+      color: #000;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 146.687%;
+    }
+    &__btn {
+      color: var(--Gray-6, #f2f2f2);
+      text-align: center;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      width: 500px;
+      height: 90px;
+      flex-shrink: 0;
+      border: 1px solid #000;
+      background: #000;
+    }
+  }
+}

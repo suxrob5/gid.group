@@ -1,0 +1,59 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    .btn-1 {
+      width: 209px;
+      height: 61px;
+      color: var(--Gray-2, #4f4f4f);
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      border: none;
+      
+    }
+    .btn-3 {
+      width: 209px;
+      height: 61px;
+      color: var(--Gray-2, #4f4f4f);
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      background: #FAFF09;
+      border: none;
+    }
+    .btn-2 {
+      width: 209px;
+      height: 61px;
+      color: #000;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      border: none;
+    }
+    .btn-4 {
+      width: 209px;
+      height: 61px;
+      color: var(--Gray-2, #4f4f4f);
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      border: none;
+    }
+  }
+}
